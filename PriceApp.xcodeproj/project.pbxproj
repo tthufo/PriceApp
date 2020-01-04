@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE9E8B20D6905DAE0595097 /* Pods_PriceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D429A4E05E18C19F297486A /* Pods_PriceApp.framework */; };
+		FC0FFCC620DCABB800362299 /* LayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0FFCC520DCABB800362299 /* LayerCell.xib */; };
+		FC0FFCC920DCDA3200362299 /* CustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0FFCC820DCDA3200362299 /* CustomField.m */; };
+		FC8AF96420E0EAD20088A111 /* OSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF96320E0EAD20088A111 /* OSTextField.m */; };
+		FC8AF96820E104AC0088A111 /* DateValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF96620E104AC0088A111 /* DateValueFormatter.m */; };
+		FCADF13A20D580B10024D8CC /* AP_Main_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCADF13920D580B10024D8CC /* AP_Main_Cell.xib */; };
+		FCADF13E20D65A9D0024D8CC /* AP_Chart_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCADF13C20D65A9D0024D8CC /* AP_Chart_ViewController.m */; };
+		FCADF13F20D65A9D0024D8CC /* AP_Chart_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCADF13D20D65A9D0024D8CC /* AP_Chart_ViewController.xib */; };
+		FCADF14320D65AB00024D8CC /* AP_Chart_Inner_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCADF14120D65AB00024D8CC /* AP_Chart_Inner_ViewController.m */; };
+		FCADF14420D65AB00024D8CC /* AP_Chart_Inner_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCADF14220D65AB00024D8CC /* AP_Chart_Inner_ViewController.xib */; };
+		FCB6493720CE588A0018B792 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6493620CE588A0018B792 /* AppDelegate.m */; };
+		FCB6493A20CE588A0018B792 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6493920CE588A0018B792 /* ViewController.m */; };
+		FCB6493D20CE588A0018B792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB6493B20CE588A0018B792 /* Main.storyboard */; };
+		FCB6493F20CE588A0018B792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB6493E20CE588A0018B792 /* Assets.xcassets */; };
+		FCB6494220CE588A0018B792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB6494020CE588A0018B792 /* LaunchScreen.storyboard */; };
+		FCB6494520CE588A0018B792 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6494420CE588A0018B792 /* main.m */; };
+		FCB6495020CE5ACA0018B792 /* AP_Login_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6494D20CE5ACA0018B792 /* AP_Login_ViewController.m */; };
+		FCB6495120CE5ACA0018B792 /* AP_Login_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB6494E20CE5ACA0018B792 /* AP_Login_ViewController.xib */; };
+		FCB6495520CE5AF00018B792 /* AP_Main_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6495320CE5AF00018B792 /* AP_Main_ViewController.m */; };
+		FCB6495620CE5AF00018B792 /* AP_Main_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB6495420CE5AF00018B792 /* AP_Main_ViewController.xib */; };
+		FCB6495A20CE5B2A0018B792 /* ObjectInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6495820CE5B2A0018B792 /* ObjectInfo.m */; };
+		FCB6495F20CE71E30018B792 /* PA_Inner_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB6495D20CE71E30018B792 /* PA_Inner_ViewController.m */; };
+		FCB6496020CE71E30018B792 /* PA_Inner_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB6495E20CE71E30018B792 /* PA_Inner_ViewController.xib */; };
+		FCB6496220CE84A60018B792 /* format.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCB6496120CE84A60018B792 /* format.plist */; };
+		FCB6496420CE84F90018B792 /* Cells.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB6496320CE84F90018B792 /* Cells.xib */; };
+		FCD22C6520CF5AD1002A5FEF /* EM_Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD22C6320CF5AD1002A5FEF /* EM_Menu.xib */; };
+		FCD22C6620CF5AD1002A5FEF /* EM_MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD22C6420CF5AD1002A5FEF /* EM_MenuView.m */; };
+		FCD353C020CFCE80008A0264 /* AP_Price_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD353BE20CFCE80008A0264 /* AP_Price_ViewController.m */; };
+		FCD353C120CFCE80008A0264 /* AP_Price_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD353BF20CFCE80008A0264 /* AP_Price_ViewController.xib */; };
+		FCD353C320D00E4D008A0264 /* E_Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD353C220D00E4D008A0264 /* E_Empty.xib */; };
+		FCD353C520D00F64008A0264 /* AP_Price_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD353C420D00F64008A0264 /* AP_Price_Cell.xib */; };
+		FCD353C920D0ABF4008A0264 /* PA_Main_Inner_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD353C720D0ABF4008A0264 /* PA_Main_Inner_ViewController.m */; };
+		FCD353CA20D0ABF4008A0264 /* PA_Main_Inner_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD353C820D0ABF4008A0264 /* PA_Main_Inner_ViewController.xib */; };
+		FCD353CC20D0C3D3008A0264 /* pets.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCD353CB20D0C3D2008A0264 /* pets.plist */; };
+		FCF02E7120EF5A4500C13DE9 /* PA_Root_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF02E7020EF5A4500C13DE9 /* PA_Root_ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D429A4E05E18C19F297486A /* Pods_PriceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE162385C2773307DB9CC7F /* Pods-PriceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PriceApp/Pods-PriceApp.release.xcconfig"; sourceTree = "<group>"; };
+		E325FDCB3BB49A5B4E492BC7 /* Pods-PriceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PriceApp/Pods-PriceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0FFCC520DCABB800362299 /* LayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerCell.xib; sourceTree = "<group>"; };
+		FC0FFCC720DCDA3200362299 /* CustomField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomField.h; sourceTree = "<group>"; };
+		FC0FFCC820DCDA3200362299 /* CustomField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomField.m; sourceTree = "<group>"; };
+		FC8AF96220E0EAD20088A111 /* OSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSTextField.h; sourceTree = "<group>"; };
+		FC8AF96320E0EAD20088A111 /* OSTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSTextField.m; sourceTree = "<group>"; };
+		FC8AF96620E104AC0088A111 /* DateValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateValueFormatter.m; sourceTree = "<group>"; };
+		FC8AF96720E104AC0088A111 /* DateValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateValueFormatter.h; sourceTree = "<group>"; };
+		FCADF13920D580B10024D8CC /* AP_Main_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AP_Main_Cell.xib; sourceTree = "<group>"; };
+		FCADF13B20D65A9C0024D8CC /* AP_Chart_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AP_Chart_ViewController.h; sourceTree = "<group>"; };
+		FCADF13C20D65A9D0024D8CC /* AP_Chart_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AP_Chart_ViewController.m; sourceTree = "<group>"; };
+		FCADF13D20D65A9D0024D8CC /* AP_Chart_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AP_Chart_ViewController.xib; sourceTree = "<group>"; };
+		FCADF14020D65AB00024D8CC /* AP_Chart_Inner_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AP_Chart_Inner_ViewController.h; sourceTree = "<group>"; };
+		FCADF14120D65AB00024D8CC /* AP_Chart_Inner_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AP_Chart_Inner_ViewController.m; sourceTree = "<group>"; };
+		FCADF14220D65AB00024D8CC /* AP_Chart_Inner_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AP_Chart_Inner_ViewController.xib; sourceTree = "<group>"; };
+		FCB6493220CE588A0018B792 /* PriceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB6493520CE588A0018B792 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCB6493620CE588A0018B792 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCB6493820CE588A0018B792 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCB6493920CE588A0018B792 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCB6493C20CE588A0018B792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCB6493E20CE588A0018B792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB6494120CE588A0018B792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCB6494320CE588A0018B792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB6494420CE588A0018B792 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCB6494B20CE59CD0018B792 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FCB6494D20CE5ACA0018B792 /* AP_Login_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AP_Login_ViewController.m; sourceTree = "<group>"; };
+		FCB6494E20CE5ACA0018B792 /* AP_Login_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AP_Login_ViewController.xib; sourceTree = "<group>"; };
+		FCB6494F20CE5ACA0018B792 /* AP_Login_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AP_Login_ViewController.h; sourceTree = "<group>"; };
+		FCB6495220CE5AF00018B792 /* AP_Main_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AP_Main_ViewController.h; sourceTree = "<group>"; };
+		FCB6495320CE5AF00018B792 /* AP_Main_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AP_Main_ViewController.m; sourceTree = "<group>"; };
+		FCB6495420CE5AF00018B792 /* AP_Main_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AP_Main_ViewController.xib; sourceTree = "<group>"; };
+		FCB6495820CE5B2A0018B792 /* ObjectInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInfo.m; sourceTree = "<group>"; };
+		FCB6495920CE5B2A0018B792 /* ObjectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInfo.h; sourceTree = "<group>"; };
+		FCB6495C20CE71E30018B792 /* PA_Inner_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PA_Inner_ViewController.h; sourceTree = "<group>"; };
+		FCB6495D20CE71E30018B792 /* PA_Inner_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PA_Inner_ViewController.m; sourceTree = "<group>"; };
+		FCB6495E20CE71E30018B792 /* PA_Inner_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PA_Inner_ViewController.xib; sourceTree = "<group>"; };
+		FCB6496120CE84A60018B792 /* format.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = format.plist; sourceTree = "<group>"; };
+		FCB6496320CE84F90018B792 /* Cells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cells.xib; sourceTree = "<group>"; };
+		FCD22C6220CF5AD1002A5FEF /* EM_MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EM_MenuView.h; sourceTree = "<group>"; };
+		FCD22C6320CF5AD1002A5FEF /* EM_Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EM_Menu.xib; sourceTree = "<group>"; };
+		FCD22C6420CF5AD1002A5FEF /* EM_MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EM_MenuView.m; sourceTree = "<group>"; };
+		FCD353BD20CFCE80008A0264 /* AP_Price_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AP_Price_ViewController.h; sourceTree = "<group>"; };
+		FCD353BE20CFCE80008A0264 /* AP_Price_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AP_Price_ViewController.m; sourceTree = "<group>"; };
+		FCD353BF20CFCE80008A0264 /* AP_Price_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AP_Price_ViewController.xib; sourceTree = "<group>"; };
+		FCD353C220D00E4D008A0264 /* E_Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = E_Empty.xib; sourceTree = "<group>"; };
+		FCD353C420D00F64008A0264 /* AP_Price_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AP_Price_Cell.xib; sourceTree = "<group>"; };
+		FCD353C620D0ABF4008A0264 /* PA_Main_Inner_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PA_Main_Inner_ViewController.h; sourceTree = "<group>"; };
+		FCD353C720D0ABF4008A0264 /* PA_Main_Inner_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PA_Main_Inner_ViewController.m; sourceTree = "<group>"; };
+		FCD353C820D0ABF4008A0264 /* PA_Main_Inner_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PA_Main_Inner_ViewController.xib; sourceTree = "<group>"; };
+		FCD353CB20D0C3D2008A0264 /* pets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pets.plist; sourceTree = "<group>"; };
+		FCF02E6F20EF5A4500C13DE9 /* PA_Root_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PA_Root_ViewController.h; sourceTree = "<group>"; };
+		FCF02E7020EF5A4500C13DE9 /* PA_Root_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PA_Root_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB6492F20CE588A0018B792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE9E8B20D6905DAE0595097 /* Pods_PriceApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EA33E380EC47A2FE82ACF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E325FDCB3BB49A5B4E492BC7 /* Pods-PriceApp.debug.xcconfig */,
+				8AE162385C2773307DB9CC7F /* Pods-PriceApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841C1E5B04F52F242DEEF6C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D429A4E05E18C19F297486A /* Pods_PriceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCB6492920CE58890018B792 = {
+			isa = PBXGroup;
+			children = (
+				FCB6493420CE588A0018B792 /* PriceApp */,
+				FCB6493320CE588A0018B792 /* Products */,
+				13EA33E380EC47A2FE82ACF1 /* Pods */,
+				841C1E5B04F52F242DEEF6C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB6493320CE588A0018B792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6493220CE588A0018B792 /* PriceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB6493420CE588A0018B792 /* PriceApp */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6495720CE5B170018B792 /* Core */,
+				FCB6494C20CE5AA40018B792 /* Controllers */,
+				FCB6493520CE588A0018B792 /* AppDelegate.h */,
+				FCB6493620CE588A0018B792 /* AppDelegate.m */,
+				FCB6493820CE588A0018B792 /* ViewController.h */,
+				FCB6493920CE588A0018B792 /* ViewController.m */,
+				FCB6493B20CE588A0018B792 /* Main.storyboard */,
+				FCB6493E20CE588A0018B792 /* Assets.xcassets */,
+				FCB6494020CE588A0018B792 /* LaunchScreen.storyboard */,
+				FCB6494320CE588A0018B792 /* Info.plist */,
+				FCB6494420CE588A0018B792 /* main.m */,
+				FCB6494B20CE59CD0018B792 /* PrefixHeader.pch */,
+				FCF02E6F20EF5A4500C13DE9 /* PA_Root_ViewController.h */,
+				FCF02E7020EF5A4500C13DE9 /* PA_Root_ViewController.m */,
+			);
+			path = PriceApp;
+			sourceTree = "<group>";
+		};
+		FCB6494C20CE5AA40018B792 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6495B20CE71CC0018B792 /* Inner */,
+				FCB6494F20CE5ACA0018B792 /* AP_Login_ViewController.h */,
+				FCB6494D20CE5ACA0018B792 /* AP_Login_ViewController.m */,
+				FCB6494E20CE5ACA0018B792 /* AP_Login_ViewController.xib */,
+				FCB6495220CE5AF00018B792 /* AP_Main_ViewController.h */,
+				FCB6495320CE5AF00018B792 /* AP_Main_ViewController.m */,
+				FCB6495420CE5AF00018B792 /* AP_Main_ViewController.xib */,
+				FCD353BD20CFCE80008A0264 /* AP_Price_ViewController.h */,
+				FCD353BE20CFCE80008A0264 /* AP_Price_ViewController.m */,
+				FCD353BF20CFCE80008A0264 /* AP_Price_ViewController.xib */,
+				FCADF13B20D65A9C0024D8CC /* AP_Chart_ViewController.h */,
+				FCADF13C20D65A9D0024D8CC /* AP_Chart_ViewController.m */,
+				FCADF13D20D65A9D0024D8CC /* AP_Chart_ViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FCB6495720CE5B170018B792 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6496320CE84F90018B792 /* Cells.xib */,
+				FCB6496120CE84A60018B792 /* format.plist */,
+				FCD353CB20D0C3D2008A0264 /* pets.plist */,
+				FCB6495920CE5B2A0018B792 /* ObjectInfo.h */,
+				FCB6495820CE5B2A0018B792 /* ObjectInfo.m */,
+				FCD22C6220CF5AD1002A5FEF /* EM_MenuView.h */,
+				FCD22C6420CF5AD1002A5FEF /* EM_MenuView.m */,
+				FCD22C6320CF5AD1002A5FEF /* EM_Menu.xib */,
+				FCD353C220D00E4D008A0264 /* E_Empty.xib */,
+				FC0FFCC520DCABB800362299 /* LayerCell.xib */,
+				FC0FFCC720DCDA3200362299 /* CustomField.h */,
+				FC0FFCC820DCDA3200362299 /* CustomField.m */,
+				FC8AF96220E0EAD20088A111 /* OSTextField.h */,
+				FC8AF96320E0EAD20088A111 /* OSTextField.m */,
+				FC8AF96720E104AC0088A111 /* DateValueFormatter.h */,
+				FC8AF96620E104AC0088A111 /* DateValueFormatter.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FCB6495B20CE71CC0018B792 /* Inner */ = {
+			isa = PBXGroup;
+			children = (
+				FCB6495C20CE71E30018B792 /* PA_Inner_ViewController.h */,
+				FCB6495D20CE71E30018B792 /* PA_Inner_ViewController.m */,
+				FCB6495E20CE71E30018B792 /* PA_Inner_ViewController.xib */,
+				FCD353C420D00F64008A0264 /* AP_Price_Cell.xib */,
+				FCD353C620D0ABF4008A0264 /* PA_Main_Inner_ViewController.h */,
+				FCD353C720D0ABF4008A0264 /* PA_Main_Inner_ViewController.m */,
+				FCD353C820D0ABF4008A0264 /* PA_Main_Inner_ViewController.xib */,
+				FCADF13920D580B10024D8CC /* AP_Main_Cell.xib */,
+				FCADF14020D65AB00024D8CC /* AP_Chart_Inner_ViewController.h */,
+				FCADF14120D65AB00024D8CC /* AP_Chart_Inner_ViewController.m */,
+				FCADF14220D65AB00024D8CC /* AP_Chart_Inner_ViewController.xib */,
+			);
+			path = Inner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB6493120CE588A0018B792 /* PriceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB6494820CE588A0018B792 /* Build configuration list for PBXNativeTarget "PriceApp" */;
+			buildPhases = (
+				43DF1A20EBE908561ADBD240 /* [CP] Check Pods Manifest.lock */,
+				FCB6492E20CE588A0018B792 /* Sources */,
+				FCB6492F20CE588A0018B792 /* Frameworks */,
+				FCB6493020CE588A0018B792 /* Resources */,
+				836A491CB8EC960A71A1C221 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceApp;
+			productName = PriceApp;
+			productReference = FCB6493220CE588A0018B792 /* PriceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB6492A20CE58890018B792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tthufo;
+				TargetAttributes = {
+					FCB6493120CE588A0018B792 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = FCB6492D20CE58890018B792 /* Build configuration list for PBXProject "PriceApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB6492920CE58890018B792;
+			productRefGroup = FCB6493320CE588A0018B792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB6493120CE588A0018B792 /* PriceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB6493020CE588A0018B792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB6496020CE71E30018B792 /* PA_Inner_ViewController.xib in Resources */,
+				FCADF14420D65AB00024D8CC /* AP_Chart_Inner_ViewController.xib in Resources */,
+				FCB6494220CE588A0018B792 /* LaunchScreen.storyboard in Resources */,
+				FCB6493F20CE588A0018B792 /* Assets.xcassets in Resources */,
+				FCB6495620CE5AF00018B792 /* AP_Main_ViewController.xib in Resources */,
+				FCB6493D20CE588A0018B792 /* Main.storyboard in Resources */,
+				FCD353C120CFCE80008A0264 /* AP_Price_ViewController.xib in Resources */,
+				FCB6496420CE84F90018B792 /* Cells.xib in Resources */,
+				FCADF13A20D580B10024D8CC /* AP_Main_Cell.xib in Resources */,
+				FC0FFCC620DCABB800362299 /* LayerCell.xib in Resources */,
+				FCB6495120CE5ACA0018B792 /* AP_Login_ViewController.xib in Resources */,
+				FCD353C520D00F64008A0264 /* AP_Price_Cell.xib in Resources */,
+				FCD22C6520CF5AD1002A5FEF /* EM_Menu.xib in Resources */,
+				FCD353CC20D0C3D3008A0264 /* pets.plist in Resources */,
+				FCADF13F20D65A9D0024D8CC /* AP_Chart_ViewController.xib in Resources */,
+				FCD353CA20D0ABF4008A0264 /* PA_Main_Inner_ViewController.xib in Resources */,
+				FCB6496220CE84A60018B792 /* format.plist in Resources */,
+				FCD353C320D00E4D008A0264 /* E_Empty.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43DF1A20EBE908561ADBD240 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836A491CB8EC960A71A1C221 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PriceApp/Pods-PriceApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AVHexColor/AVHexColor.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FirePush/FirePush.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONKit-NoWarning/JSONKit_NoWarning.framework",
+				"${BUILT_PRODUCTS_DIR}/MCChartView/MCChartView.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVHexColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirePush.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONKit_NoWarning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MCChartView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PriceApp/Pods-PriceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB6492E20CE588A0018B792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB6493A20CE588A0018B792 /* ViewController.m in Sources */,
+				FCADF14320D65AB00024D8CC /* AP_Chart_Inner_ViewController.m in Sources */,
+				FCD22C6620CF5AD1002A5FEF /* EM_MenuView.m in Sources */,
+				FCB6494520CE588A0018B792 /* main.m in Sources */,
+				FCB6493720CE588A0018B792 /* AppDelegate.m in Sources */,
+				FCF02E7120EF5A4500C13DE9 /* PA_Root_ViewController.m in Sources */,
+				FCB6495020CE5ACA0018B792 /* AP_Login_ViewController.m in Sources */,
+				FC8AF96820E104AC0088A111 /* DateValueFormatter.m in Sources */,
+				FCADF13E20D65A9D0024D8CC /* AP_Chart_ViewController.m in Sources */,
+				FCD353C920D0ABF4008A0264 /* PA_Main_Inner_ViewController.m in Sources */,
+				FCB6495A20CE5B2A0018B792 /* ObjectInfo.m in Sources */,
+				FC8AF96420E0EAD20088A111 /* OSTextField.m in Sources */,
+				FCD353C020CFCE80008A0264 /* AP_Price_ViewController.m in Sources */,
+				FCB6495520CE5AF00018B792 /* AP_Main_ViewController.m in Sources */,
+				FCB6495F20CE71E30018B792 /* PA_Inner_ViewController.m in Sources */,
+				FC0FFCC920DCDA3200362299 /* CustomField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCB6493B20CE588A0018B792 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB6493C20CE588A0018B792 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCB6494020CE588A0018B792 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB6494120CE588A0018B792 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB6494620CE588A0018B792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCB6494720CE588A0018B792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB6494920CE588A0018B792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E325FDCB3BB49A5B4E492BC7 /* Pods-PriceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nguyen Ngoc Quang (589UWV5PGW)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7546H2CFFT;
+				GCC_PREFIX_HEADER = PriceApp/PrefixHeader.pch;
+				INFOPLIST_FILE = PriceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.a.btest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "32a92680-cf25-459a-b26a-3aaa7f997be5";
+				PROVISIONING_PROFILE_SPECIFIER = AgriWildcard;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCB6494A20CE588A0018B792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE162385C2773307DB9CC7F /* Pods-PriceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: VMG MEDIA JOINT STOCK COMPANY";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = PriceApp/PrefixHeader.pch;
+				INFOPLIST_FILE = PriceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.a.btest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9404fc9-4e5b-4df1-93c7-bbfae8396a6a";
+				PROVISIONING_PROFILE_SPECIFIER = BTest;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB6492D20CE58890018B792 /* Build configuration list for PBXProject "PriceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB6494620CE588A0018B792 /* Debug */,
+				FCB6494720CE588A0018B792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB6494820CE588A0018B792 /* Build configuration list for PBXNativeTarget "PriceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB6494920CE588A0018B792 /* Debug */,
+				FCB6494A20CE588A0018B792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB6492A20CE58890018B792 /* Project object */;
+}

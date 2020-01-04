@@ -1,0 +1,923 @@
+2018-06-25 11:51:19 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fbe25d7be00; archive(resolved)='<IDEArchive: 0x7fbe2499b1f0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team(resolved)='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fbe25d7be00; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fbe25be1400; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe1d128240; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe3028b920; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe25a7f9e0; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe253d08c0; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe1f117b90; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe257ed0c0; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe257c6480; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='<IDEProvisioningBasicTeam 0x7fbe30214ad0: teamID: 6WFVFGGZZJ, teamName: VMG MEDIA JOINT STOCK COMPANY>'>
+	<IDEDistributionContext: 0x7fbe257a6a90; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='<IDEDistributionMethodiOSEnterprise: 0x7fbe21d9db30>', team='(null)'>
+	<IDEDistributionContext: 0x7fbe22862c30; archive = '<IDEArchive: 0x7fbe2499b1f0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fbe25d7be00>
+2018-06-25 11:51:19 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-06-25 11:51:19 +0000  Processing step: IDEDistributionCopyItemStep
+2018-06-25 11:51:19 +0000  Running /usr/bin/ditto '-V' '/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app'
+2018-06-25 11:51:19 +0000  >>> Copying /Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app 
+2018-06-25 11:51:19 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-06-25 11:51:19 +0000  33193 bytes for ./_CodeSignature/CodeResources
+2018-06-25 11:51:19 +0000  copying file ./EM_Menu.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:19 +0000  19078 bytes for ./EM_Menu.nib/objects-11.0+.nib
+2018-06-25 11:51:19 +0000  copying file ./EM_Menu.nib/runtime.nib ... 
+2018-06-25 11:51:19 +0000  19168 bytes for ./EM_Menu.nib/runtime.nib
+2018-06-25 11:51:19 +0000  copying file ./AP_Price_Cell.nib ... 
+2018-06-25 11:51:19 +0000  5652 bytes for ./AP_Price_Cell.nib
+copying file ./AP_Price_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:19 +0000  10138 bytes for ./AP_Price_ViewController.nib/objects-11.0+.nib
+copying file ./AP_Price_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:19 +0000  9205 bytes for ./AP_Price_ViewController.nib/runtime.nib
+2018-06-25 11:51:19 +0000  copying file ./Cells.nib ... 
+2018-06-25 11:51:19 +0000  2931 bytes for ./Cells.nib
+2018-06-25 11:51:19 +0000  copying file ./AP_Chart_Inner_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:19 +0000  2318 bytes for ./AP_Chart_Inner_ViewController.nib/objects-11.0+.nib
+copying file ./AP_Chart_Inner_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:19 +0000  1660 bytes for ./AP_Chart_Inner_ViewController.nib/runtime.nib
+2018-06-25 11:51:19 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-06-25 11:51:19 +0000  14234 bytes for ./AppIcon60x60@2x.png
+copying file ./AppIcon29x29@2x.png ... 
+2018-06-25 11:51:19 +0000  5489 bytes for ./AppIcon29x29@2x.png
+2018-06-25 11:51:19 +0000  copying file ./AP_Main_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:19 +0000  8813 bytes for ./AP_Main_ViewController.nib/objects-11.0+.nib
+2018-06-25 11:51:19 +0000  copying file ./AP_Main_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:19 +0000  7865 bytes for ./AP_Main_ViewController.nib/runtime.nib
+2018-06-25 11:51:19 +0000  copying file ./PA_Main_Inner_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:19 +0000  6036 bytes for ./PA_Main_Inner_ViewController.nib/objects-11.0+.nib
+2018-06-25 11:51:19 +0000  copying file ./PA_Main_Inner_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:19 +0000  5426 bytes for ./PA_Main_Inner_ViewController.nib/runtime.nib
+2018-06-25 11:51:19 +0000  copying file ./AppIcon40x40@3x.png ... 
+2018-06-25 11:51:19 +0000  13310 bytes for ./AppIcon40x40@3x.png
+2018-06-25 11:51:19 +0000  copying file ./AppIcon40x40@2x.png ... 
+2018-06-25 11:51:19 +0000  8505 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+2018-06-25 11:51:19 +0000  8872 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon60x60@3x.png ... 
+2018-06-25 11:51:19 +0000  24096 bytes for ./AppIcon60x60@3x.png
+2018-06-25 11:51:19 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-06-25 11:51:19 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-06-25 11:51:19 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-06-25 11:51:19 +0000  1986 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-06-25 11:51:19 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-06-25 11:51:19 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-06-25 11:51:19 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-06-25 11:51:19 +0000  2516 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-06-25 11:51:19 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-06-25 11:51:19 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-06-25 11:51:19 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-06-25 11:51:19 +0000  copying file ./LayerCell.nib ... 
+2018-06-25 11:51:19 +0000  2535 bytes for ./LayerCell.nib
+2018-06-25 11:51:19 +0000  copying file ./AP_Chart_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:19 +0000  7510 bytes for ./AP_Chart_ViewController.nib/objects-11.0+.nib
+2018-06-25 11:51:19 +0000  copying file ./AP_Chart_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:19 +0000  6578 bytes for ./AP_Chart_ViewController.nib/runtime.nib
+copying file ./AP_Login_ViewController.nib ... 
+2018-06-25 11:51:19 +0000  5812 bytes for ./AP_Login_ViewController.nib
+2018-06-25 11:51:19 +0000  copying file ./AP_Main_Cell.nib ... 
+2018-06-25 11:51:19 +0000  3328 bytes for ./AP_Main_Cell.nib
+copying file ./Assets.car ... 
+2018-06-25 11:51:19 +0000  1005576 bytes for ./Assets.car
+2018-06-25 11:51:19 +0000  copying file ./E_Empty.nib ... 
+2018-06-25 11:51:19 +0000  2730 bytes for ./E_Empty.nib
+2018-06-25 11:51:19 +0000  copying file ./format.plist ... 
+2018-06-25 11:51:19 +0000  154 bytes for ./format.plist
+copying file ./PriceApp ... 
+2018-06-25 11:51:19 +0000  2311744 bytes for ./PriceApp
+2018-06-25 11:51:19 +0000  copying file ./PA_Inner_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:19 +0000  8239 bytes for ./PA_Inner_ViewController.nib/objects-11.0+.nib
+copying file ./PA_Inner_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:19 +0000  7402 bytes for ./PA_Inner_ViewController.nib/runtime.nib
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/Toast.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:19 +0000  2202 bytes for ./Frameworks/Toast.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/Toast.framework/Toast ... 
+2018-06-25 11:51:19 +0000  563568 bytes for ./Frameworks/Toast.framework/Toast
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/Toast.framework/Info.plist ... 
+2018-06-25 11:51:19 +0000  733 bytes for ./Frameworks/Toast.framework/Info.plist
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/AVHexColor.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:19 +0000  2202 bytes for ./Frameworks/AVHexColor.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/AVHexColor.framework/AVHexColor ... 
+2018-06-25 11:51:19 +0000  400128 bytes for ./Frameworks/AVHexColor.framework/AVHexColor
+copying file ./Frameworks/AVHexColor.framework/Info.plist ... 
+2018-06-25 11:51:19 +0000  743 bytes for ./Frameworks/AVHexColor.framework/Info.plist
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/Reachability.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:19 +0000  2202 bytes for ./Frameworks/Reachability.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/Reachability.framework/Reachability ... 
+2018-06-25 11:51:19 +0000  382016 bytes for ./Frameworks/Reachability.framework/Reachability
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/Reachability.framework/Info.plist ... 
+2018-06-25 11:51:19 +0000  747 bytes for ./Frameworks/Reachability.framework/Info.plist
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-06-25 11:51:19 +0000  258272 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-06-25 11:51:19 +0000  505792 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2018-06-25 11:51:19 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2018-06-25 11:51:21 +0000  68838960 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-06-25 11:51:21 +0000  1268848 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2018-06-25 11:51:21 +0000  789200 bytes for ./Frameworks/libswiftUIKit.dylib
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:21 +0000  6110 bytes for ./Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD ... 
+2018-06-25 11:51:21 +0000  1010240 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png ... 
+2018-06-25 11:51:21 +0000  365 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png ... 
+2018-06-25 11:51:21 +0000  398 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png ... 
+2018-06-25 11:51:21 +0000  8319 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png ... 
+2018-06-25 11:51:21 +0000  4893 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png ... 
+2018-06-25 11:51:21 +0000  306 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png ... 
+2018-06-25 11:51:21 +0000  1200 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png ... 
+2018-06-25 11:51:21 +0000  462 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png ... 
+2018-06-25 11:51:21 +0000  714 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png ... 
+2018-06-25 11:51:21 +0000  816 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png ... 
+2018-06-25 11:51:21 +0000  184 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png ... 
+2018-06-25 11:51:21 +0000  262 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png
+copying file ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png ... 
+2018-06-25 11:51:21 +0000  1845 bytes for ./Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/SVProgressHUD.framework/Info.plist ... 
+2018-06-25 11:51:21 +0000  749 bytes for ./Frameworks/SVProgressHUD.framework/Info.plist
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2018-06-25 11:51:21 +0000  399392 bytes for ./Frameworks/libswiftMetal.dylib
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/MCChartView.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:21 +0000  2202 bytes for ./Frameworks/MCChartView.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:21 +0000  copying file ./Frameworks/MCChartView.framework/MCChartView ... 
+2018-06-25 11:51:22 +0000  1321152 bytes for ./Frameworks/MCChartView.framework/MCChartView
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/MCChartView.framework/Info.plist ... 
+2018-06-25 11:51:22 +0000  745 bytes for ./Frameworks/MCChartView.framework/Info.plist
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-06-25 11:51:22 +0000  2440752 bytes for ./Frameworks/libswiftDispatch.dylib
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2018-06-25 11:51:22 +0000  446400 bytes for ./Frameworks/libswiftos.dylib
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2018-06-25 11:51:22 +0000  257712 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-06-25 11:51:22 +0000  599280 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/FirePush.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:22 +0000  2202 bytes for ./Frameworks/FirePush.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/FirePush.framework/FirePush ... 
+2018-06-25 11:51:22 +0000  2958048 bytes for ./Frameworks/FirePush.framework/FirePush
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/FirePush.framework/Info.plist ... 
+2018-06-25 11:51:22 +0000  739 bytes for ./Frameworks/FirePush.framework/Info.plist
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-06-25 11:51:22 +0000  310976 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/JSONKit_NoWarning.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:22 +0000  2202 bytes for ./Frameworks/JSONKit_NoWarning.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/JSONKit_NoWarning.framework/JSONKit_NoWarning ... 
+2018-06-25 11:51:22 +0000  745376 bytes for ./Frameworks/JSONKit_NoWarning.framework/JSONKit_NoWarning
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/JSONKit_NoWarning.framework/Info.plist ... 
+2018-06-25 11:51:22 +0000  759 bytes for ./Frameworks/JSONKit_NoWarning.framework/Info.plist
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:22 +0000  2202 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2018-06-25 11:51:22 +0000  2253360 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+2018-06-25 11:51:22 +0000  743 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/Charts.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:22 +0000  2202 bytes for ./Frameworks/Charts.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:22 +0000  copying file ./Frameworks/Charts.framework/Charts ... 
+2018-06-25 11:51:23 +0000  22983504 bytes for ./Frameworks/Charts.framework/Charts
+2018-06-25 11:51:23 +0000  copying file ./Frameworks/Charts.framework/Info.plist ... 
+2018-06-25 11:51:23 +0000  735 bytes for ./Frameworks/Charts.framework/Info.plist
+2018-06-25 11:51:23 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-06-25 11:51:26 +0000  27762880 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-06-25 11:51:26 +0000  copying file ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:26 +0000  2202 bytes for ./Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:26 +0000  copying file ./Frameworks/AFNetworking.framework/AFNetworking ... 
+2018-06-25 11:51:26 +0000  2751248 bytes for ./Frameworks/AFNetworking.framework/AFNetworking
+copying file ./Frameworks/AFNetworking.framework/Info.plist ... 
+2018-06-25 11:51:26 +0000  747 bytes for ./Frameworks/AFNetworking.framework/Info.plist
+2018-06-25 11:51:26 +0000  copying file ./embedded.mobileprovision ... 
+2018-06-25 11:51:26 +0000  7492 bytes for ./embedded.mobileprovision
+copying file ./pets.plist ... 
+2018-06-25 11:51:26 +0000  152 bytes for ./pets.plist
+2018-06-25 11:51:26 +0000  copying file ./Info.plist ... 
+2018-06-25 11:51:26 +0000  1581 bytes for ./Info.plist
+2018-06-25 11:51:26 +0000  copying file ./PkgInfo ... 
+2018-06-25 11:51:26 +0000  8 bytes for ./PkgInfo
+2018-06-25 11:51:26 +0000  
+2018-06-25 11:51:26 +0000  2018-06-25 11:51:26 +0000  /usr/bin/ditto exited with 0
+2018-06-25 11:51:26 +0000  2018-06-25 11:51:26 +0000  Processing step: IDEDistributionEmbedProfileStep
+
+
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe257de3f0 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fbe25a5a480:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AFNetworking.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe245f2ca0 'org.cocoapods.AVHexColor' '<DVTFilePath:0x7fbe25a46a50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AVHexColor.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe25621470 'org.cocoapods.Charts' '<DVTFilePath:0x7fbe25790650:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Charts.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe257cddb0 'org.cocoapods.FirePush' '<DVTFilePath:0x7fbe2506ddc0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/FirePush.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe25a67eb0 'org.cocoapods.JSONKit-NoWarning' '<DVTFilePath:0x7fbe2507c320:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/JSONKit_NoWarning.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe257d18b0 'org.cocoapods.MCChartView' '<DVTFilePath:0x7fbe1c9a4680:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/MCChartView.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe257b97b0 'org.cocoapods.Reachability' '<DVTFilePath:0x7fbe25a4a0d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Reachability.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe25a61830 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fbe1cc1a7d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SDWebImage.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe257dd870 'org.cocoapods.SVProgressHUD' '<DVTFilePath:0x7fbe1fd83e50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SVProgressHUD.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe257d1840 'org.cocoapods.Toast' '<DVTFilePath:0x7fbe2223c790:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Toast.framework'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe246ed0b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbe257bc6e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCore.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe24b11070 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbe1fd140e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe30203d60 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbe20845130:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe257f9270 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbe257d5930:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe25a5de00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbe25ba98a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe25a62c50 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbe1fdf35f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe25a74c80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbe25a59460:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe30263c20 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbe35ffa3f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftMetal.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe25a68c00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbe2523ec10:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe1e8dab40 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbe258218b0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe256ab060 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbe1f706f90:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-06-25 11:51:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbe2519e6c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbe25b764a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftos.dylib'>'>
+2018-06-25 11:51:27 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-06-25 11:51:27 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-06-25 11:51:27 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-06-25 11:51:27 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-06-25 11:51:27 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-06-25 11:51:31 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-06-25 11:51:31 +0000  Processing step: IDEDistributionSymbolsStep
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-06-25 11:51:31 +0000  Processing step: IDEDistributionAppThinningStep
+2018-06-25 11:51:31 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-06-25 11:51:31 +0000  Processing step: IDEDistributionODRStep
+2018-06-25 11:51:31 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe257de3f0 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fbe25a5a480:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AFNetworking.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe245f2ca0 'org.cocoapods.AVHexColor' '<DVTFilePath:0x7fbe25a46a50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AVHexColor.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe25621470 'org.cocoapods.Charts' '<DVTFilePath:0x7fbe25790650:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Charts.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe257cddb0 'org.cocoapods.FirePush' '<DVTFilePath:0x7fbe2506ddc0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/FirePush.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe25a67eb0 'org.cocoapods.JSONKit-NoWarning' '<DVTFilePath:0x7fbe2507c320:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/JSONKit_NoWarning.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe257d18b0 'org.cocoapods.MCChartView' '<DVTFilePath:0x7fbe1c9a4680:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/MCChartView.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe257b97b0 'org.cocoapods.Reachability' '<DVTFilePath:0x7fbe25a4a0d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Reachability.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe25a61830 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fbe1cc1a7d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SDWebImage.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe257dd870 'org.cocoapods.SVProgressHUD' '<DVTFilePath:0x7fbe1fd83e50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SVProgressHUD.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe257d1840 'org.cocoapods.Toast' '<DVTFilePath:0x7fbe2223c790:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Toast.framework'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe246ed0b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbe257bc6e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCore.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe24b11070 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbe1fd140e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe30203d60 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbe20845130:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe257f9270 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbe257d5930:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe25a5de00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbe25ba98a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe25a62c50 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbe1fdf35f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe25a74c80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbe25a59460:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe30263c20 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbe35ffa3f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftMetal.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe25a68c00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbe2523ec10:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe1e8dab40 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbe258218b0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe256ab060 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbe1f706f90:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-06-25 11:51:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbe2519e6c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbe25b764a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftos.dylib'>'>
+2018-06-25 11:51:31 +0000  Running /usr/bin/xattr '-crs' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app'
+2018-06-25 11:51:33 +0000  
+2018-06-25 11:51:33 +0000  2018-06-25 11:51:33 +0000  
+
+2018-06-25 11:51:33 +0000  2018-06-25 11:51:33 +0000  /usr/bin/xattr exited with 0
+
+2018-06-25 11:51:33 +0000  
+2018-06-25 11:51:33 +0000  Processing step: IDEDistributionCodesignStep
+2018-06-25 11:51:33 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe257de3f0 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fbe25a5a480:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AFNetworking.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe21d88730>: {
+}
+2018-06-25 11:51:33 +0000  Entitlements for <IDEDistributionItem: 0x7fbe257de3f0 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fbe25a5a480:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AFNetworking.framework'>'>: {
+}
+2018-06-25 11:51:33 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe257de3f0 'org.cocoapods.AFNetworking' '<DVTFilePath:0x7fbe25a5a480:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AFNetworking.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsve3UzJ
+2018-06-25 11:51:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsve3UzJ' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/AFNetworking.framework'
+2018-06-25 11:51:34 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/AFNetworking.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AFNetworking]
+2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  /usr/bin/codesign exited with 0
+
+2018-06-25 11:51:34 +0000  2018-06-25 11:51:34 +0000  
+
+2018-06-25 11:51:34 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe245f2ca0 'org.cocoapods.AVHexColor' '<DVTFilePath:0x7fbe25a46a50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AVHexColor.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe2559dd50>: {
+}
+2018-06-25 11:51:34 +0000  Entitlements for <IDEDistributionItem: 0x7fbe245f2ca0 'org.cocoapods.AVHexColor' '<DVTFilePath:0x7fbe25a46a50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AVHexColor.framework'>'>: {
+}
+2018-06-25 11:51:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe245f2ca0 'org.cocoapods.AVHexColor' '<DVTFilePath:0x7fbe25a46a50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/AVHexColor.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements76Ty9U
+2018-06-25 11:51:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements76Ty9U' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/AVHexColor.framework'
+2018-06-25 11:51:34 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/AVHexColor.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.AVHexColor]
+2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  2018-06-25 11:51:34 +0000  
+
+2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  
+2018-06-25 11:51:34 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:34 +0000  2018-06-25 11:51:34 +0000  
+
+2018-06-25 11:51:34 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe25621470 'org.cocoapods.Charts' '<DVTFilePath:0x7fbe25790650:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Charts.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe252dae30>: {
+}
+2018-06-25 11:51:34 +0000  Entitlements for <IDEDistributionItem: 0x7fbe25621470 'org.cocoapods.Charts' '<DVTFilePath:0x7fbe25790650:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Charts.framework'>'>: {
+}
+2018-06-25 11:51:34 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe25621470 'org.cocoapods.Charts' '<DVTFilePath:0x7fbe25790650:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Charts.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsRUCgL2
+2018-06-25 11:51:34 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsRUCgL2' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/Charts.framework'
+2018-06-25 11:51:35 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/Charts.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Charts]
+2018-06-25 11:51:35 +0000  2018-06-25 11:51:35 +0000  
+
+2018-06-25 11:51:35 +0000  2018-06-25 11:51:35 +0000  
+
+2018-06-25 11:51:35 +0000  
+2018-06-25 11:51:35 +0000  2018-06-25 11:51:35 +0000  
+
+2018-06-25 11:51:35 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:35 +0000  2018-06-25 11:51:35 +0000  
+
+2018-06-25 11:51:35 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe257cddb0 'org.cocoapods.FirePush' '<DVTFilePath:0x7fbe2506ddc0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/FirePush.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe25788700>: {
+}
+2018-06-25 11:51:35 +0000  Entitlements for <IDEDistributionItem: 0x7fbe257cddb0 'org.cocoapods.FirePush' '<DVTFilePath:0x7fbe2506ddc0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/FirePush.framework'>'>: {
+}
+2018-06-25 11:51:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe257cddb0 'org.cocoapods.FirePush' '<DVTFilePath:0x7fbe2506ddc0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/FirePush.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsDetMyi
+2018-06-25 11:51:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsDetMyi' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/FirePush.framework'
+2018-06-25 11:51:35 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/FirePush.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.FirePush]
+2018-06-25 11:51:35 +0000  
+2018-06-25 11:51:35 +0000  2018-06-25 11:51:35 +0000  
+
+2018-06-25 11:51:35 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:35 +0000  2018-06-25 11:51:35 +0000  
+
+2018-06-25 11:51:35 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe25a67eb0 'org.cocoapods.JSONKit-NoWarning' '<DVTFilePath:0x7fbe2507c320:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/JSONKit_NoWarning.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe2474e120>: {
+}
+2018-06-25 11:51:35 +0000  Entitlements for <IDEDistributionItem: 0x7fbe25a67eb0 'org.cocoapods.JSONKit-NoWarning' '<DVTFilePath:0x7fbe2507c320:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/JSONKit_NoWarning.framework'>'>: {
+}
+2018-06-25 11:51:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe25a67eb0 'org.cocoapods.JSONKit-NoWarning' '<DVTFilePath:0x7fbe2507c320:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/JSONKit_NoWarning.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementshSW20u
+2018-06-25 11:51:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementshSW20u' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework'
+2018-06-25 11:51:36 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.JSONKit-NoWarning]
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  2018-06-25 11:51:36 +0000  
+
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  2018-06-25 11:51:36 +0000  /usr/bin/codesign exited with 0
+
+2018-06-25 11:51:36 +0000  2018-06-25 11:51:36 +0000  
+
+2018-06-25 11:51:36 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe257d18b0 'org.cocoapods.MCChartView' '<DVTFilePath:0x7fbe1c9a4680:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/MCChartView.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe2529fb40>: {
+}
+2018-06-25 11:51:36 +0000  Entitlements for <IDEDistributionItem: 0x7fbe257d18b0 'org.cocoapods.MCChartView' '<DVTFilePath:0x7fbe1c9a4680:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/MCChartView.framework'>'>: {
+}
+2018-06-25 11:51:36 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe257d18b0 'org.cocoapods.MCChartView' '<DVTFilePath:0x7fbe1c9a4680:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/MCChartView.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsi47nT7
+2018-06-25 11:51:36 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsi47nT7' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/MCChartView.framework'
+2018-06-25 11:51:36 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/MCChartView.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.MCChartView]
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  2018-06-25 11:51:36 +0000  
+
+2018-06-25 11:51:36 +0000  2018-06-25 11:51:36 +0000  
+
+2018-06-25 11:51:36 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:36 +0000  
+2018-06-25 11:51:36 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe257b97b0 'org.cocoapods.Reachability' '<DVTFilePath:0x7fbe25a4a0d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Reachability.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe252276e0>: {
+}
+2018-06-25 11:51:36 +0000  Entitlements for <IDEDistributionItem: 0x7fbe257b97b0 'org.cocoapods.Reachability' '<DVTFilePath:0x7fbe25a4a0d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Reachability.framework'>'>: {
+}
+2018-06-25 11:51:36 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe257b97b0 'org.cocoapods.Reachability' '<DVTFilePath:0x7fbe25a4a0d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Reachability.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsBkJqmK
+2018-06-25 11:51:36 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsBkJqmK' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/Reachability.framework'
+2018-06-25 11:51:37 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/Reachability.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Reachability]
+2018-06-25 11:51:37 +0000  2018-06-25 11:51:37 +0000  
+
+2018-06-25 11:51:37 +0000  
+2018-06-25 11:51:37 +0000  
+2018-06-25 11:51:37 +0000  
+2018-06-25 11:51:37 +0000  2018-06-25 11:51:37 +0000  
+
+2018-06-25 11:51:37 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:37 +0000  2018-06-25 11:51:37 +0000  
+
+2018-06-25 11:51:37 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe25a61830 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fbe1cc1a7d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SDWebImage.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe22f8a190>: {
+}
+2018-06-25 11:51:37 +0000  Entitlements for <IDEDistributionItem: 0x7fbe25a61830 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fbe1cc1a7d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SDWebImage.framework'>'>: {
+}
+2018-06-25 11:51:37 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe25a61830 'org.cocoapods.SDWebImage' '<DVTFilePath:0x7fbe1cc1a7d0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SDWebImage.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsnxh86f
+2018-06-25 11:51:37 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsnxh86f' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/SDWebImage.framework'
+2018-06-25 11:51:39 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SDWebImage]
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  /usr/bin/codesign exited with 0
+
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe257dd870 'org.cocoapods.SVProgressHUD' '<DVTFilePath:0x7fbe1fd83e50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SVProgressHUD.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe21f203d0>: {
+}
+2018-06-25 11:51:39 +0000  Entitlements for <IDEDistributionItem: 0x7fbe257dd870 'org.cocoapods.SVProgressHUD' '<DVTFilePath:0x7fbe1fd83e50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SVProgressHUD.framework'>'>: {
+}
+2018-06-25 11:51:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe257dd870 'org.cocoapods.SVProgressHUD' '<DVTFilePath:0x7fbe1fd83e50:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/SVProgressHUD.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsNghjqe
+2018-06-25 11:51:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsNghjqe' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/SVProgressHUD.framework'
+2018-06-25 11:51:39 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/SVProgressHUD.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.SVProgressHUD]
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  2018-06-25 11:51:39 +0000  
+
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:39 +0000  
+2018-06-25 11:51:39 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe257d1840 'org.cocoapods.Toast' '<DVTFilePath:0x7fbe2223c790:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Toast.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe1f07db30>: {
+}
+2018-06-25 11:51:39 +0000  Entitlements for <IDEDistributionItem: 0x7fbe257d1840 'org.cocoapods.Toast' '<DVTFilePath:0x7fbe2223c790:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Toast.framework'>'>: {
+}
+2018-06-25 11:51:39 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe257d1840 'org.cocoapods.Toast' '<DVTFilePath:0x7fbe2223c790:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/Toast.framework'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsWFgsoA
+2018-06-25 11:51:39 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsWFgsoA' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/Toast.framework'
+2018-06-25 11:51:40 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/Toast.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Toast]
+2018-06-25 11:51:40 +0000  
+2018-06-25 11:51:40 +0000  2018-06-25 11:51:40 +0000  
+
+2018-06-25 11:51:40 +0000  2018-06-25 11:51:40 +0000  
+
+2018-06-25 11:51:40 +0000  
+2018-06-25 11:51:40 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:40 +0000  2018-06-25 11:51:40 +0000  
+
+2018-06-25 11:51:40 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe246ed0b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbe257bc6e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe24739ec0>: {
+}
+2018-06-25 11:51:40 +0000  Entitlements for <IDEDistributionItem: 0x7fbe246ed0b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbe257bc6e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-06-25 11:51:40 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe246ed0b0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbe257bc6e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsxCiMyb
+2018-06-25 11:51:40 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsxCiMyb' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCore.dylib'
+2018-06-25 11:51:41 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  2018-06-25 11:51:41 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:41 +0000  
+
+2018-06-25 11:51:41 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe24b11070 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbe1fd140e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe39944490>: {
+}
+2018-06-25 11:51:41 +0000  Entitlements for <IDEDistributionItem: 0x7fbe24b11070 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbe1fd140e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-06-25 11:51:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe24b11070 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbe1fd140e0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements5yLAQa
+2018-06-25 11:51:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements5yLAQa' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-06-25 11:51:41 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  2018-06-25 11:51:41 +0000  
+
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  /usr/bin/codesign exited with 02018-06-25 11:51:41 +0000  
+
+2018-06-25 11:51:41 +0000  
+2018-06-25 11:51:41 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe30203d60 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbe20845130:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe24fd2740>: {
+}
+2018-06-25 11:51:41 +0000  Entitlements for <IDEDistributionItem: 0x7fbe30203d60 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbe20845130:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-06-25 11:51:41 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe30203d60 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbe20845130:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsNarGKw
+2018-06-25 11:51:41 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsNarGKw' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-06-25 11:51:42 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  2018-06-25 11:51:42 +0000  
+
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  2018-06-25 11:51:42 +0000  /usr/bin/codesign exited with 0
+
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe257f9270 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbe257d5930:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe1d2fa150>: {
+}
+2018-06-25 11:51:42 +0000  Entitlements for <IDEDistributionItem: 0x7fbe257f9270 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbe257d5930:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-06-25 11:51:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe257f9270 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbe257d5930:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsUYCxJ8
+2018-06-25 11:51:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsUYCxJ8' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCoreImage.dylib'
+2018-06-25 11:51:42 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-06-25 11:51:42 +0000  2018-06-25 11:51:42 +0000  
+
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  /usr/bin/codesign exited with 02018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+
+2018-06-25 11:51:42 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe25a5de00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbe25ba98a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe21d288c0>: {
+}
+2018-06-25 11:51:42 +0000  Entitlements for <IDEDistributionItem: 0x7fbe25a5de00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbe25ba98a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-06-25 11:51:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe25a5de00 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbe25ba98a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementssRFWsg
+2018-06-25 11:51:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementssRFWsg' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftDarwin.dylib'
+2018-06-25 11:51:42 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe25a62c50 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbe1fdf35f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe24f535a0>: {
+}
+2018-06-25 11:51:42 +0000  Entitlements for <IDEDistributionItem: 0x7fbe25a62c50 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbe1fdf35f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-06-25 11:51:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe25a62c50 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbe1fdf35f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements1n8KgA
+2018-06-25 11:51:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements1n8KgA' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftDispatch.dylib'
+2018-06-25 11:51:42 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-06-25 11:51:42 +0000  2018-06-25 11:51:42 +0000  
+
+2018-06-25 11:51:42 +0000  2018-06-25 11:51:42 +0000  
+
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  
+2018-06-25 11:51:42 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe25a74c80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbe25a59460:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe255b1b30>: {
+}
+2018-06-25 11:51:42 +0000  Entitlements for <IDEDistributionItem: 0x7fbe25a74c80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbe25a59460:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-06-25 11:51:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe25a74c80 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbe25a59460:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementspOr3kO
+2018-06-25 11:51:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementspOr3kO' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftFoundation.dylib'
+2018-06-25 11:51:43 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  2018-06-25 11:51:43 +0000  /usr/bin/codesign exited with 0
+
+2018-06-25 11:51:43 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe30263c20 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbe35ffa3f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe20ca4c20>: {
+}
+2018-06-25 11:51:43 +0000  Entitlements for <IDEDistributionItem: 0x7fbe30263c20 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbe35ffa3f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-06-25 11:51:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe30263c20 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbe35ffa3f0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements41npBd
+2018-06-25 11:51:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlements41npBd' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftMetal.dylib'
+2018-06-25 11:51:43 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-06-25 11:51:43 +0000  2018-06-25 11:51:43 +0000  
+
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  2018-06-25 11:51:43 +0000  2018-06-25 11:51:43 +0000  /usr/bin/codesign exited with 0
+
+
+2018-06-25 11:51:43 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe25a68c00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbe2523ec10:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe255f8380>: {
+}
+2018-06-25 11:51:43 +0000  Entitlements for <IDEDistributionItem: 0x7fbe25a68c00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbe2523ec10:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-06-25 11:51:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe25a68c00 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbe2523ec10:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsXx6Pm5
+2018-06-25 11:51:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsXx6Pm5' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftObjectiveC.dylib'
+2018-06-25 11:51:43 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  2018-06-25 11:51:43 +0000  /usr/bin/codesign exited with 0
+
+2018-06-25 11:51:43 +0000  
+2018-06-25 11:51:43 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe1e8dab40 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbe258218b0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe252f00b0>: {
+}
+2018-06-25 11:51:43 +0000  Entitlements for <IDEDistributionItem: 0x7fbe1e8dab40 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbe258218b0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-06-25 11:51:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe1e8dab40 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbe258218b0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementspc1UHb
+2018-06-25 11:51:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementspc1UHb' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftQuartzCore.dylib'
+2018-06-25 11:51:44 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe256ab060 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbe1f706f90:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe21ff9440>: {
+}
+2018-06-25 11:51:44 +0000  Entitlements for <IDEDistributionItem: 0x7fbe256ab060 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbe1f706f90:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-06-25 11:51:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe256ab060 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbe1f706f90:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsDnVawo
+2018-06-25 11:51:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsDnVawo' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftUIKit.dylib'
+2018-06-25 11:51:44 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  2018-06-25 11:51:44 +0000  /usr/bin/codesign exited with 02018-06-25 11:51:44 +0000  
+
+
+2018-06-25 11:51:44 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe2519e6c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbe25b764a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe2553df80>: {
+}
+2018-06-25 11:51:44 +0000  Entitlements for <IDEDistributionItem: 0x7fbe2519e6c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbe25b764a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-06-25 11:51:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe2519e6c0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbe25b764a0:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsCgUOYX
+2018-06-25 11:51:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsCgUOYX' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftos.dylib'
+2018-06-25 11:51:44 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  
+2018-06-25 11:51:44 +0000  2018-06-25 11:51:44 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:44 +0000  
+
+2018-06-25 11:51:44 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fbe3028c4a0 'ios.a.btest' '<DVTFilePath:0x7fbe22f9c170:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fbe22a79420>: {
+}
+2018-06-25 11:51:44 +0000  Entitlements for <IDEDistributionItem: 0x7fbe3028c4a0 'ios.a.btest' '<DVTFilePath:0x7fbe22f9c170:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app'>'>: {
+    "application-identifier" = "6WFVFGGZZJ.ios.a.btest";
+    "com.apple.developer.team-identifier" = 6WFVFGGZZJ;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "6WFVFGGZZJ.ios.a.btest"
+    );
+}
+2018-06-25 11:51:44 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbe3028c4a0 'ios.a.btest' '<DVTFilePath:0x7fbe22f9c170:'/Users/thanhhaitran/Library/Developer/Xcode/Archives/2018-06-25/PriceApp 6-25-18, 6.50 PM.xcarchive/Products/Applications/PriceApp.app'>'> to: /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsq6aB4a
+2018-06-25 11:51:44 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1016F42DEAF639D3C55FB658BBBB4BFF2BA7A62' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/entitlementsq6aB4a' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app'
+2018-06-25 11:51:45 +0000  /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root/Payload/PriceApp.app: signed app bundle with Mach-O universal (armv7 arm64) [ios.a.btest]
+2018-06-25 11:51:45 +0000  
+2018-06-25 11:51:45 +0000  
+2018-06-25 11:51:45 +0000  
+2018-06-25 11:51:45 +0000  
+2018-06-25 11:51:45 +0000  
+2018-06-25 11:51:45 +0000  2018-06-25 11:51:45 +0000  /usr/bin/codesign exited with 0
+2018-06-25 11:51:45 +0000  
+
+2018-06-25 11:51:45 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-06-25 11:51:45 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-06-25 11:51:45 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root' '/var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Packages/PriceApp.ipa'
+2018-06-25 11:51:45 +0000  >>> Copying /var/folders/sb/4x7352fn6yd68ctf29rj40yh0000gn/T/XcodeDistPipeline.nSi/Root 
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:45 +0000  33193 bytes for ./Payload/PriceApp.app/_CodeSignature/CodeResources
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/EM_Menu.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:45 +0000  19078 bytes for ./Payload/PriceApp.app/EM_Menu.nib/objects-11.0+.nib
+copying file ./Payload/PriceApp.app/EM_Menu.nib/runtime.nib ... 
+2018-06-25 11:51:45 +0000  19168 bytes for ./Payload/PriceApp.app/EM_Menu.nib/runtime.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AP_Price_Cell.nib ... 
+2018-06-25 11:51:45 +0000  5652 bytes for ./Payload/PriceApp.app/AP_Price_Cell.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AP_Price_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:45 +0000  10138 bytes for ./Payload/PriceApp.app/AP_Price_ViewController.nib/objects-11.0+.nib
+copying file ./Payload/PriceApp.app/AP_Price_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:45 +0000  9205 bytes for ./Payload/PriceApp.app/AP_Price_ViewController.nib/runtime.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Cells.nib ... 
+2018-06-25 11:51:45 +0000  2931 bytes for ./Payload/PriceApp.app/Cells.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AP_Chart_Inner_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:45 +0000  2318 bytes for ./Payload/PriceApp.app/AP_Chart_Inner_ViewController.nib/objects-11.0+.nib
+copying file ./Payload/PriceApp.app/AP_Chart_Inner_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:45 +0000  1660 bytes for ./Payload/PriceApp.app/AP_Chart_Inner_ViewController.nib/runtime.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AppIcon60x60@2x.png ... 
+2018-06-25 11:51:45 +0000  14234 bytes for ./Payload/PriceApp.app/AppIcon60x60@2x.png
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AppIcon29x29@2x.png ... 
+2018-06-25 11:51:45 +0000  5489 bytes for ./Payload/PriceApp.app/AppIcon29x29@2x.png
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AP_Main_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:45 +0000  8813 bytes for ./Payload/PriceApp.app/AP_Main_ViewController.nib/objects-11.0+.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AP_Main_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:45 +0000  7865 bytes for ./Payload/PriceApp.app/AP_Main_ViewController.nib/runtime.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/PA_Main_Inner_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:45 +0000  6036 bytes for ./Payload/PriceApp.app/PA_Main_Inner_ViewController.nib/objects-11.0+.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/PA_Main_Inner_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:45 +0000  5426 bytes for ./Payload/PriceApp.app/PA_Main_Inner_ViewController.nib/runtime.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AppIcon40x40@3x.png ... 
+2018-06-25 11:51:45 +0000  13310 bytes for ./Payload/PriceApp.app/AppIcon40x40@3x.png
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AppIcon40x40@2x.png ... 
+2018-06-25 11:51:45 +0000  8505 bytes for ./Payload/PriceApp.app/AppIcon40x40@2x.png
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AppIcon29x29@3x.png ... 
+2018-06-25 11:51:45 +0000  8872 bytes for ./Payload/PriceApp.app/AppIcon29x29@3x.png
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AppIcon60x60@3x.png ... 
+2018-06-25 11:51:45 +0000  24096 bytes for ./Payload/PriceApp.app/AppIcon60x60@3x.png
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-06-25 11:51:45 +0000  916 bytes for ./Payload/PriceApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/PriceApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-06-25 11:51:45 +0000  1986 bytes for ./Payload/PriceApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-06-25 11:51:45 +0000  258 bytes for ./Payload/PriceApp.app/Base.lproj/Main.storyboardc/Info.plist
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-06-25 11:51:45 +0000  2516 bytes for ./Payload/PriceApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-06-25 11:51:45 +0000  832 bytes for ./Payload/PriceApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/PriceApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/LayerCell.nib ... 
+2018-06-25 11:51:45 +0000  2535 bytes for ./Payload/PriceApp.app/LayerCell.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AP_Chart_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:45 +0000  7510 bytes for ./Payload/PriceApp.app/AP_Chart_ViewController.nib/objects-11.0+.nib
+copying file ./Payload/PriceApp.app/AP_Chart_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:45 +0000  6578 bytes for ./Payload/PriceApp.app/AP_Chart_ViewController.nib/runtime.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/AP_Login_ViewController.nib ... 
+2018-06-25 11:51:45 +0000  5812 bytes for ./Payload/PriceApp.app/AP_Login_ViewController.nib
+copying file ./Payload/PriceApp.app/AP_Main_Cell.nib ... 
+2018-06-25 11:51:45 +0000  3328 bytes for ./Payload/PriceApp.app/AP_Main_Cell.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Assets.car ... 
+2018-06-25 11:51:45 +0000  1005576 bytes for ./Payload/PriceApp.app/Assets.car
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/E_Empty.nib ... 
+2018-06-25 11:51:45 +0000  2730 bytes for ./Payload/PriceApp.app/E_Empty.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/format.plist ... 
+2018-06-25 11:51:45 +0000  154 bytes for ./Payload/PriceApp.app/format.plist
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/PriceApp ... 
+2018-06-25 11:51:45 +0000  596992 bytes for ./Payload/PriceApp.app/PriceApp
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/PA_Inner_ViewController.nib/objects-11.0+.nib ... 
+2018-06-25 11:51:45 +0000  8239 bytes for ./Payload/PriceApp.app/PA_Inner_ViewController.nib/objects-11.0+.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/PA_Inner_ViewController.nib/runtime.nib ... 
+2018-06-25 11:51:45 +0000  7402 bytes for ./Payload/PriceApp.app/PA_Inner_ViewController.nib/runtime.nib
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/Toast.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:45 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/Toast.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/Toast.framework/Toast ... 
+2018-06-25 11:51:45 +0000  267088 bytes for ./Payload/PriceApp.app/Frameworks/Toast.framework/Toast
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/Toast.framework/Info.plist ... 
+733 bytes for ./Payload/PriceApp.app/Frameworks/Toast.framework/Info.plist
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/AVHexColor.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:45 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/AVHexColor.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/AVHexColor.framework/AVHexColor ... 
+2018-06-25 11:51:45 +0000  202576 bytes for ./Payload/PriceApp.app/Frameworks/AVHexColor.framework/AVHexColor
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/AVHexColor.framework/Info.plist ... 
+2018-06-25 11:51:45 +0000  743 bytes for ./Payload/PriceApp.app/Frameworks/AVHexColor.framework/Info.plist
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/Reachability.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:45 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/Reachability.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:45 +0000  copying file ./Payload/PriceApp.app/Frameworks/Reachability.framework/Reachability ... 
+2018-06-25 11:51:46 +0000  201056 bytes for ./Payload/PriceApp.app/Frameworks/Reachability.framework/Reachability
+2018-06-25 11:51:46 +0000  copying file ./Payload/PriceApp.app/Frameworks/Reachability.framework/Info.plist ... 
+2018-06-25 11:51:46 +0000  747 bytes for ./Payload/PriceApp.app/Frameworks/Reachability.framework/Info.plist
+2018-06-25 11:51:46 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-06-25 11:51:46 +0000  209264 bytes for ./Payload/PriceApp.app/Frameworks/libswiftCoreImage.dylib
+2018-06-25 11:51:46 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-06-25 11:51:46 +0000  259344 bytes for ./Payload/PriceApp.app/Frameworks/libswiftObjectiveC.dylib
+2018-06-25 11:51:46 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftCore.dylib ... 
+2018-06-25 11:51:49 +0000  21080000 bytes for ./Payload/PriceApp.app/Frameworks/libswiftCore.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-06-25 11:51:49 +0000  578160 bytes for ./Payload/PriceApp.app/Frameworks/libswiftCoreGraphics.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftUIKit.dylib ... 
+2018-06-25 11:51:49 +0000  361904 bytes for ./Payload/PriceApp.app/Frameworks/libswiftUIKit.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:49 +0000  6110 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD ... 
+2018-06-25 11:51:49 +0000  400592 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png ... 
+2018-06-25 11:51:49 +0000  365 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png ... 
+2018-06-25 11:51:49 +0000  398 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@3x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png ... 
+2018-06-25 11:51:49 +0000  8319 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@3x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png ... 
+2018-06-25 11:51:49 +0000  4893 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask@2x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png ... 
+2018-06-25 11:51:49 +0000  306 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error@2x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png ... 
+2018-06-25 11:51:49 +0000  1200 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@3x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png ... 
+2018-06-25 11:51:49 +0000  462 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@2x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png ... 
+2018-06-25 11:51:49 +0000  714 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success@3x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png ... 
+2018-06-25 11:51:49 +0000  816 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/info@2x.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png ... 
+2018-06-25 11:51:49 +0000  184 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/error.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png ... 
+2018-06-25 11:51:49 +0000  262 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/success.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png ... 
+2018-06-25 11:51:49 +0000  1845 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/Info.plist ... 
+2018-06-25 11:51:49 +0000  749 bytes for ./Payload/PriceApp.app/Frameworks/SVProgressHUD.framework/Info.plist
+copying file ./Payload/PriceApp.app/Frameworks/libswiftMetal.dylib ... 
+2018-06-25 11:51:49 +0000  251664 bytes for ./Payload/PriceApp.app/Frameworks/libswiftMetal.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/MCChartView.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:49 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/MCChartView.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/MCChartView.framework/MCChartView ... 
+2018-06-25 11:51:49 +0000  480672 bytes for ./Payload/PriceApp.app/Frameworks/MCChartView.framework/MCChartView
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/MCChartView.framework/Info.plist ... 
+2018-06-25 11:51:49 +0000  745 bytes for ./Payload/PriceApp.app/Frameworks/MCChartView.framework/Info.plist
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftDispatch.dylib ... 
+2018-06-25 11:51:49 +0000  1009664 bytes for ./Payload/PriceApp.app/Frameworks/libswiftDispatch.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftos.dylib ... 
+2018-06-25 11:51:49 +0000  249312 bytes for ./Payload/PriceApp.app/Frameworks/libswiftos.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-06-25 11:51:49 +0000  208704 bytes for ./Payload/PriceApp.app/Frameworks/libswiftCoreFoundation.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftDarwin.dylib ... 
+2018-06-25 11:51:49 +0000  303472 bytes for ./Payload/PriceApp.app/Frameworks/libswiftDarwin.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/FirePush.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:49 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/FirePush.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/FirePush.framework/FirePush ... 
+2018-06-25 11:51:49 +0000  1012976 bytes for ./Payload/PriceApp.app/Frameworks/FirePush.framework/FirePush
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/FirePush.framework/Info.plist ... 
+739 bytes for ./Payload/PriceApp.app/Frameworks/FirePush.framework/Info.plist
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-06-25 11:51:49 +0000  212624 bytes for ./Payload/PriceApp.app/Frameworks/libswiftQuartzCore.dylib
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:49 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework/JSONKit_NoWarning ... 
+2018-06-25 11:51:49 +0000  300608 bytes for ./Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework/JSONKit_NoWarning
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework/Info.plist ... 
+2018-06-25 11:51:49 +0000  759 bytes for ./Payload/PriceApp.app/Frameworks/JSONKit_NoWarning.framework/Info.plist
+copying file ./Payload/PriceApp.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:49 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2018-06-25 11:51:49 +0000  802720 bytes for ./Payload/PriceApp.app/Frameworks/SDWebImage.framework/SDWebImage
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/SDWebImage.framework/Info.plist ... 
+2018-06-25 11:51:49 +0000  743 bytes for ./Payload/PriceApp.app/Frameworks/SDWebImage.framework/Info.plist
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/Charts.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:49 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/Charts.framework/_CodeSignature/CodeResources
+2018-06-25 11:51:49 +0000  copying file ./Payload/PriceApp.app/Frameworks/Charts.framework/Charts ... 
+2018-06-25 11:51:50 +0000  7385328 bytes for ./Payload/PriceApp.app/Frameworks/Charts.framework/Charts
+2018-06-25 11:51:50 +0000  copying file ./Payload/PriceApp.app/Frameworks/Charts.framework/Info.plist ... 
+2018-06-25 11:51:50 +0000  735 bytes for ./Payload/PriceApp.app/Frameworks/Charts.framework/Info.plist
+2018-06-25 11:51:50 +0000  copying file ./Payload/PriceApp.app/Frameworks/libswiftFoundation.dylib ... 
+2018-06-25 11:51:51 +0000  8413696 bytes for ./Payload/PriceApp.app/Frameworks/libswiftFoundation.dylib
+2018-06-25 11:51:51 +0000  copying file ./Payload/PriceApp.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources ... 
+2018-06-25 11:51:51 +0000  2202 bytes for ./Payload/PriceApp.app/Frameworks/AFNetworking.framework/_CodeSignature/CodeResources
+copying file ./Payload/PriceApp.app/Frameworks/AFNetworking.framework/AFNetworking ... 
+2018-06-25 11:51:51 +0000  1036800 bytes for ./Payload/PriceApp.app/Frameworks/AFNetworking.framework/AFNetworking
+2018-06-25 11:51:51 +0000  copying file ./Payload/PriceApp.app/Frameworks/AFNetworking.framework/Info.plist ... 
+2018-06-25 11:51:51 +0000  747 bytes for ./Payload/PriceApp.app/Frameworks/AFNetworking.framework/Info.plist
+copying file ./Payload/PriceApp.app/embedded.mobileprovision ... 
+2018-06-25 11:51:51 +0000  7492 bytes for ./Payload/PriceApp.app/embedded.mobileprovision
+2018-06-25 11:51:51 +0000  copying file ./Payload/PriceApp.app/pets.plist ... 
+2018-06-25 11:51:51 +0000  152 bytes for ./Payload/PriceApp.app/pets.plist
+2018-06-25 11:51:51 +0000  copying file ./Payload/PriceApp.app/Info.plist ... 
+2018-06-25 11:51:51 +0000  1581 bytes for ./Payload/PriceApp.app/Info.plist
+2018-06-25 11:51:51 +0000  copying file ./Payload/PriceApp.app/PkgInfo ... 
+2018-06-25 11:51:51 +0000  8 bytes for ./Payload/PriceApp.app/PkgInfo
+2018-06-25 11:51:51 +0000  
+2018-06-25 11:51:51 +0000  
+2018-06-25 11:51:51 +0000  2018-06-25 11:51:51 +0000  /usr/bin/ditto exited with 02018-06-25 11:51:51 +0000  
+
+
+2018-06-25 11:51:51 +0000  Processing step: IDEDistributionCreateManifestStep
